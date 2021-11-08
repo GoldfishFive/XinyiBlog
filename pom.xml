@@ -222,7 +222,7 @@
         <!-- 验证码 -->
         <dependency>
             <groupId>com.github.whvcse</groupId>
-            <artifactId>EasyCaptcha</artifactId>
+            <artifactId>easy-captcha</artifactId>
             <version>1.6.2</version>
         </dependency>
 
@@ -325,13 +325,14 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>alimaven</id>
-            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-        </repository>
+
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>alimaven</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
     </repositories>
 
